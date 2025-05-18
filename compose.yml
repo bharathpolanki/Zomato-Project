@@ -1,0 +1,10 @@
+---
+version: "3"
+  
+services:
+  application:
+    container_name: cont1
+    image: bharath830/myrepo:zomatoimage
+    ports:
+      - "1234:3000"
+...                 
